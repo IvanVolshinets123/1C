@@ -2,7 +2,7 @@ body::-webkit-scrollbar {
     width: 8px;               /* ширина scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background-color: #fecd38;      /* цвет дорожки */
+    background-color: #928663;      /* цвет дорожки */
   }
   body::-webkit-scrollbar-thumb {
     background-color: #fe3838; /* цвет плашки */
@@ -180,6 +180,7 @@ body{
     width: 50%;
     height: 50%;
     margin-top: 10%;
+    filter: grayscale(1);
 }
 .h1andp_history{
     margin: 10% auto;
