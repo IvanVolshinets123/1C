@@ -1,12 +1,13 @@
 body::-webkit-scrollbar {
-    width: 8px;               /* ширина scrollbar */
+    width: 12px;               /* ширина scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background-color: #928663;      /* цвет дорожки */
+    background: orange;        /* цвет дорожки */
   }
   body::-webkit-scrollbar-thumb {
-    background-color: #fe3838; /* цвет плашки */
+    background-color: lightcoral;    /* цвет плашки */
     border-radius: 20px;       /* закругления плашки */
+    border: 3px solid orange;  /* padding вокруг плашки */
   }
 *{
     margin: 0;
@@ -17,7 +18,7 @@ html{
 }
 body{
     font-family: sans-serif;
-    background-color: #fecd38;
+    background-color: yellow;
 }
 .photo{
     width: 5%;
@@ -57,7 +58,7 @@ body{
     transition: 0.1s color ease-in;
 }
 .text_head:hover{
-    color: #fe3838;
+    color: lightcoral;
 }
 .first_container{
     max-width: 1280px;
@@ -88,7 +89,7 @@ body{
     margin-bottom: 20%;
 }
 .cube>div{
-    background-color: #fe3838;
+    background-color: lightcoral;
     border-color: white;
     box-shadow: 0 0 20px white;
 }
@@ -180,7 +181,6 @@ body{
     width: 50%;
     height: 50%;
     margin-top: 10%;
-    filter: grayscale(1);
 }
 .h1andp_history{
     margin: 10% auto;
@@ -374,7 +374,6 @@ body{
 .card2{
   background: url('./img/Nuraliev2.png') center center no-repeat;
   background-size: 300px;
-  filter: grayscale(1);
 }
 .card2:hover{
     background: url('./img/Nuraliev2.png') left center no-repeat;
@@ -387,7 +386,7 @@ body{
   opacity: 0;
   transition: opacity 500ms;
 }
-.card:hover .makers_h2{
+.makers_h2:hover{
     opacity: 1;
     transition: opacity 500ms;
 }
