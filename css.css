@@ -1,13 +1,12 @@
 body::-webkit-scrollbar {
-    width: 12px;               /* ширина scrollbar */
+    width: 8px;               /* ширина scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background: orange;        /* цвет дорожки */
+    background-color: #fecd38;      /* цвет дорожки */
   }
   body::-webkit-scrollbar-thumb {
-    background-color: lightcoral;    /* цвет плашки */
+    background-color: #fe3838; /* цвет плашки */
     border-radius: 20px;       /* закругления плашки */
-    border: 3px solid orange;  /* padding вокруг плашки */
   }
 *{
     margin: 0;
@@ -18,7 +17,7 @@ html{
 }
 body{
     font-family: sans-serif;
-    background-color: yellow;
+    background-color: #fecd38;
 }
 .photo{
     width: 5%;
@@ -58,7 +57,7 @@ body{
     transition: 0.1s color ease-in;
 }
 .text_head:hover{
-    color: lightcoral;
+    color: #fe3838;
 }
 .first_container{
     max-width: 1280px;
@@ -89,7 +88,7 @@ body{
     margin-bottom: 20%;
 }
 .cube>div{
-    background-color: lightcoral;
+    background-color: #fe3838;
     border-color: white;
     box-shadow: 0 0 20px white;
 }
@@ -181,6 +180,7 @@ body{
     width: 50%;
     height: 50%;
     margin-top: 10%;
+    filter: grayscale(1);
 }
 .h1andp_history{
     margin: 10% auto;
@@ -286,6 +286,18 @@ body{
     width: 300px;
     margin-bottom: 10%;
 }
+.first_five{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.first_six{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
 .second_first{
     border: 1px solid black;
     height: 150px;
@@ -305,6 +317,18 @@ body{
     margin-bottom: 10%;
 }
 .second_fourth{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.second_five{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.second_six{
     border: 1px solid black;
     height: 150px;
     width: 300px;
@@ -374,6 +398,7 @@ body{
 .card2{
   background: url('./img/Nuraliev2.png') center center no-repeat;
   background-size: 300px;
+  filter: grayscale(1);
 }
 .card2:hover{
     background: url('./img/Nuraliev2.png') left center no-repeat;
@@ -386,7 +411,7 @@ body{
   opacity: 0;
   transition: opacity 500ms;
 }
-.makers_h2:hover{
+.card:hover .makers_h2{
     opacity: 1;
     transition: opacity 500ms;
 }
