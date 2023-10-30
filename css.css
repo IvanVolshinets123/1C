@@ -2,7 +2,7 @@ body::-webkit-scrollbar {
     width: 8px;               /* ширина scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background-color: #928663;      /* цвет дорожки */
+    background-color: #fecd38;      /* цвет дорожки */
   }
   body::-webkit-scrollbar-thumb {
     background-color: #fe3838; /* цвет плашки */
@@ -286,6 +286,18 @@ body{
     width: 300px;
     margin-bottom: 10%;
 }
+.first_five{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.first_six{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
 .second_first{
     border: 1px solid black;
     height: 150px;
@@ -305,6 +317,18 @@ body{
     margin-bottom: 10%;
 }
 .second_fourth{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.second_five{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.second_six{
     border: 1px solid black;
     height: 150px;
     width: 300px;
