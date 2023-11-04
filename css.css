@@ -591,17 +591,20 @@ ul{
     .card{
         margin-top: 10%;
     }
+    .first_container{
+        overflow: hidden;
+    }
     .second_container{
-        max-width: 550px;
+        overflow: hidden;
     }
     .third_container{
-        max-width: 550px;
+        overflow: hidden;
     }
     .four_container{
-        max-width: 550px;
+        overflow: hidden;
     }
     .five_container{
-        max-width: 550px;
+        overflow: hidden;
     }
 }
 @media screen and (max-width: 767px){ 
@@ -626,7 +629,7 @@ ul{
         color: purple;
     }
     .p_linux{
-        margin-left: -5px;
+        margin-left: -2px;
         color: purple;
     }
     .img_radshenko{
@@ -668,16 +671,22 @@ ul{
     .card{
         margin-top: 10%;
     }
+    .first_container{
+        overflow: hidden;
+    }
     .second_container{
-        max-width: 300px;
+        overflow: hidden;
     }
     .third_container{
-        max-width: 300px;
+        overflow: hidden;
     }
     .four_container{
-        max-width: 300px;
+        overflow: hidden;
     }
     .five_container{
-        max-width: 300px;
+        overflow: hidden;
+    }
+    .windows_icons {
+        margin-top: 10%;
     }
 }
