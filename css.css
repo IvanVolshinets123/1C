@@ -221,6 +221,7 @@ body{
     margin: 1% 2%;
 }
 .button_kard_block_first{
+    border-color: black;
     font-size: 20px;
     height: 50px;
     width: 150px;
