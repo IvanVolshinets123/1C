@@ -20,7 +20,8 @@ body{
     background-color: #fecd38;
 }
 .photo{
-    width: 5%;
+    width: 50px;
+    margin-top: -20px;
 }
 .header_container{
     width: 100%;
@@ -495,4 +496,160 @@ body{
 .p_linux{
     margin-top: 9%;
     margin-bottom: 10%;
+}
+.burger_icon{
+    display: none;
+    width: 50px;
+    margin-right: 25px;
+}
+.mob__menu_back{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.mob_menu{
+    z-index: 3;
+    display: none;
+    width: 320px;
+    height: 100vh;
+    text-align: center;
+    background-color: orange;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+}
+.mob_menu ul{
+    margin-top: 100px;
+}
+.mob_menu li img {
+    filter: invert(100%);
+}
+.mob_menu li{
+    margin-bottom: 25px;
+}
+.mob_menu ul li, .mob_menu ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.mob_menu ul li img {
+    margin-right: 25px;
+}
+#mob__menu_close{
+    width: 40px;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+@media screen and (max-width: 1279px) {
+    .container{
+        visibility: hidden;
+    }
+    .third_block_item:not(.kard_block_second){
+        display: grid;
+    }
+    .third_photo_radshenko{
+        text-align: center;
+    }
+    .sylka_block{
+        text-align: center;
+    }
+    .sylka{
+        margin: 0;
+    }
+    .second_item{
+        display: grid;
+        place-items: center;
+    }
+    .photo_block_two{
+        width: 70%;
+        height: 70%;
+    }
+    .first_six{
+        margin-bottom: 0px;
+    }
+    .makers{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        min-height: 1227px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        min-width: auto;
+        margin-top: 10%;
+    }
+    .card{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 767px){ 
+    .burger_icon{
+        display: block;
+    } 
+    .namber-nav{
+        justify-content: space-between;   
+    }
+    .namber-nav>li{
+        display: none;
+    }
+    .installing{
+        display: grid;
+    }
+    .win_a{
+        padding-bottom: 70px;
+        color: purple;
+    }
+    .apple_a{
+        padding-bottom: 70px;
+        color: purple;
+    }
+    .p_linux{
+        margin-left: -5px;
+        color: purple;
+    }
+    .img_radshenko{
+        width: 300px;
+        height: 400px;
+    }
+    .third_photo_radshenko {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .first_h1{
+        font-size: 32px;
+    }
+    .second_h3_zagolovok{
+        font-size: 32px;
+    }
+    .third_h3_zagolovok{
+        font-size: 32px;
+    }
+    .four_h3_zagolovok{
+        font-size: 32px;
+    }
+    .five_zagolovok{
+        font-size: 32px;
+    }
+    .h1_block_item{
+        font-size: 23px;
+    }
+    .h1_history{
+        font-size: 23px;
+    }
+    .p_history{
+        font-size: 11px;
+    }
+    .photo_block_two {
+        width: 87%;
+        height: 87%;
+    }
 }
