@@ -591,6 +591,18 @@ ul{
     .card{
         margin-top: 10%;
     }
+    .second_container{
+        max-width: 550px;
+    }
+    .third_container{
+        max-width: 550px;
+    }
+    .four_container{
+        max-width: 550px;
+    }
+    .five_container{
+        max-width: 550px;
+    }
 }
 @media screen and (max-width: 767px){ 
     .burger_icon{
@@ -652,5 +664,20 @@ ul{
     .photo_block_two {
         width: 87%;
         height: 87%;
+    }
+    .card{
+        margin-top: 10%;
+    }
+    .second_container{
+        max-width: 300px;
+    }
+    .third_container{
+        max-width: 300px;
+    }
+    .four_container{
+        max-width: 300px;
+    }
+    .five_container{
+        max-width: 300px;
     }
 }
